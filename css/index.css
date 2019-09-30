@@ -1,0 +1,99 @@
+body{
+	background-image: "BG1.jpg";
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.head img{
+	align-content: left;
+	margin-top: -5px;
+	width: 30px;
+	height: 30px;
+}
+.head{
+	margin-left: -10px;
+	margin-top: -10px;
+	padding: 5px;
+	width: 1320px;
+	height: 30px;
+	background-color: white;
+	text-align: right;
+	position: fixed;
+}
+.search{
+	margin-top: 5px;
+	width: 300px;
+}
+.buttoncap{
+	margin-top: -21px;
+	margin-right: 100px;
+	width: 1250px;
+}
+.buttoncap button{
+	margin-left: 100px;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.buttoncap a{
+	color: black;
+	text-decoration: none;
+}
+
+.logo{
+	margin-left: -8px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0,200,255,.8);
+	width: 1320px;
+	height: 90px;
+	color: white;
+	font-family: arial;
+	display: flex;
+	text-shadow: 5px,5px,8px;
+}
+.logo img{
+	margin-right: 10px;
+	width: 90px;
+	height: 90px;
+}
+.logo h1{
+	margin-top: 27px;
+	text-shadow: 20px, 20px, 10px rgba(0,0,0,1);
+}
+.mainbox{
+	margin-top: 50px;
+	display: flex;
+}
+.mainbox a{
+	color: black;
+	text-decoration: none;
+}
+.mainnews{
+	margin-left: 30px;
+	width: 600px;
+	height: 400px;
+	background: rgba(255,255,255,.8);
+	border-radius: 25px;
+	box-shadow: 10px, 10px, 15px rgba(0,0,0,1);
+}
+.sidenews{
+	margin-bottom: 20px;
+	margin-left: 25px;
+	width: 600px;
+	height: 190px;
+	background: rgba(255,255,255,.8);
+	border-radius: 25px;
+}
+.optionalbox a{
+	text-decoration: none;
+	color: black;
+}
+.optionalnews{
+	margin-left: 30px;
+	margin-top: 25px;
+	width: 900px;
+	height: 150px;
+	background: rgba(255,255,255,.8);
+	border-radius: 25px;
+}
