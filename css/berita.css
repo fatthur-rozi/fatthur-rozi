@@ -1,0 +1,151 @@
+body{
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.head img{
+	align-content: left;
+	margin-top: -5px;
+	width: 30px;
+	height: 30px;
+}
+.head{
+	margin-left: -10px;
+	margin-top: -10px;
+	padding: 5px;
+	width: 1302px;
+	height: 30px;
+	background-color: white;
+	text-align: right;
+	position: fixed;
+	box-shadow: 3px 0px 5px rgba(0,0,0,1);
+}
+.search{
+	margin-top: 5px;
+	width: 300px;
+}
+.buttoncap{
+	margin-top: -21px;
+	margin-right: 100px;
+	width: 1250px;
+}
+.buttoncap button{
+	margin-left: 100px;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.buttoncap a{
+	color: black;
+	text-decoration: none;
+}
+
+.logo{
+	margin-left: -8px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0,200,255,.8);
+	width: 1301px;
+	height: 90px;
+	display: flex;
+}
+.logo img{
+	margin-right: 10px;
+	width: 90px;
+	height: 90px;
+}
+.logo h1{
+	margin-top: 27px;
+	text-shadow: 20px, 20px, 10px rgba(0,0,0,1);
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	text-shadow: 2px 2px 5px rgba(0,0,0,1);
+}
+.news{
+	margin:12px;
+	padding: 12px;
+	width: auto;
+	height: auto;
+	border: 1px solid black;
+	background: rgba(255,255,255,.55);
+}
+.image img{
+	margin-left: 3%;
+	height: 20px;
+	width: 50px;
+}
+ul img{
+	height: 50px;
+	width: 50px;
+}
+.input{
+	margin:12px;
+	padding: 12px;
+	width: auto;
+	height:auto;
+	border: 1px solid black;
+	background: rgba(255,255,255,.55);
+}
+.input textarea{
+	height: auto;
+	width: 720px;
+}
+.input input{
+	margin-right: 12px;
+}
+.komen{
+	margin:12px;
+	border:1px solid black;
+	padding: 12px;
+	background: rgba(255,255,255,.55);
+}
+.tab {
+	width: 400px;
+	overflow: hidden;
+	border: none;
+	background-color: #f1f1f1;
+}
+
+.tab button {
+	width: 200px;
+  background-color: #ccc;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: white;
+}
+
+.tabcontent {
+  background-color: white;
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+}
+.optionalbox{
+	margin: 12px;
+}
+.optionalbox a{
+	width: 900px;
+	text-decoration: none;
+	color: black;
+}
+.optionalnews{
+	width: 900px;
+	height: 50px;
+	background: rgba(255,255,255,.8);
+	border-bottom: 1px solid black;
+}
