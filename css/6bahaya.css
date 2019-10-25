@@ -3,7 +3,6 @@ body{
 	background-attachment: fixed;
 }
 .head img{
-	align-content: left;
 	margin-top: -5px;
 	width: 30px;
 	height: 30px;
@@ -128,6 +127,10 @@ h1{
 .komen img{
 	width: 50px;
 	height: 50px;
+}
+.teks{
+	margin-top: -85px;
+	margin-left:60px;
 }
 .tab {
 	width: 400px;

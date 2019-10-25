@@ -59,8 +59,8 @@
 		</ul>
 	</div>
 	<div class="tab">
-	  <button class="tablinks" onclick="openCity(event, 'related')">Terkait</button>
-	  <button class="tablinks" onclick="openCity(event, 'comment')">Komentar</button>
+	  <button class="tablinks" onclick="tabs(event, 'related')">Terkait</button>
+	  <button class="tablinks" onclick="tabs(event, 'comment')">Komentar</button>
 	</div>
 
 	<div id="related" class="tabcontent">
@@ -83,13 +83,41 @@
 		</div>
 		<div class="komen">
 			<div>
-				<img src="img/icons8-account-100.png">mantap min, lanjutkan.....
+				<img src="img/icons8-account-100.png">
+			</div>
+			<div class="teks">
+				<h5>sokor</h5>
+				<p>mantap min, lanjutkan.....</p>
+			</div>
+			<hr>
+			<div>
+				<img src="img/icons8-account-100.png">
+			</div>
+			<div class="teks">
+				<h5>sokor</h5>
+				<p>mantap min, lanjutkan.....</p>
+			</div>
+			<hr>
+			<div>
+				<img src="img/icons8-account-100.png">
+			</div>
+			<div class="teks">
+				<h5>sokor</h5>
+				<p>mantap min, lanjutkan.....</p>
+			</div>
+			<hr>
+			<div>
+				<img src="img/icons8-account-100.png">
+			</div>
+			<div class="teks">
+				<h5>sokor</h5>
+				<p>mantap min, lanjutkan.....</p>
 			</div>
 		</div>
 	</div>
 
 	<script>
-	function openCity(evt, cityName) {
+	function tabs(evt, klik) {
 		  var i, tabcontent, tablinks;
 		  tabcontent = document.getElementsByClassName("tabcontent");
 		  for (i = 0; i < tabcontent.length; i++) {
@@ -99,7 +127,7 @@
 		  for (i = 0; i < tablinks.length; i++) {
 		    	tablinks[i].className = tablinks[i].className.replace("active", "");
 		  }
-		  document.getElementById(cityName).style.display = "block";
+		  document.getElementById(klik).style.display = "block";
 		  evt.currentTarget.className += " active";
 	}
 	</script>

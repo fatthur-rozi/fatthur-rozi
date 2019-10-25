@@ -3,7 +3,6 @@ body{
 	background-attachment: fixed;
 }
 .head img{
-	align-content: left;
 	margin-top: -5px;
 	width: 30px;
 	height: 30px;
@@ -72,6 +71,16 @@ body{
 	border: 1px solid black;
 	background: rgba(255,255,255,.55);
 }
+.tag a{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: white;
+}
 .image img{
 	margin-left: 3%;
 	height: 20px;
@@ -117,16 +126,20 @@ ul img{
 	background: rgba(255,255,255,.55);
 }
 .komen img{
-	width: 50px;
-	height: 50px;
+	width: 55px;
+	height: 55px;
 }
+
 .tab {
 	width: 400px;
 	overflow: hidden;
 	border: none;
 	background-color: #f1f1f1;
 }
-
+.teks{
+	margin-top: -85px;
+	margin-left:60px;
+}
 .tab button {
 	width: 200px;
   background-color: #ccc;
